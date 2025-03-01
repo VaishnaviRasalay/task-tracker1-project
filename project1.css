@@ -1,0 +1,20 @@
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.list-group-item:hover {
+    background: #f8f9fa;
+}
+
+.delete {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.delete:hover {
+    background: red;
+    color: white;
+}
